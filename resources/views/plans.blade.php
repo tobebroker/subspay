@@ -74,7 +74,7 @@
     </section>
 
     <section>
-        <h1 class="heading-1 text-center" style="margin-top: 58px; margin-bottom: 60px">
+        <h1 class="heading-1 text-center" style="margin-top: 55px; margin-bottom: 40px">
             Compare Features
         </h1>
 

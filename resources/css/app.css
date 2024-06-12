@@ -773,7 +773,7 @@ main {
 }
 
 .link-in-text {
-    text-decoration: underline;
+    text-decoration: underline !important;
     font-weight: bold;
     cursor: pointer;
 }
