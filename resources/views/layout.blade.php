@@ -35,7 +35,7 @@
                     <a href="{{route('dashboard')}}"
                        class="nav-link d-flex align-items-center {{request()->routeIs('dashboard') ? 'active' : '' }}"
                        aria-current="page">
-                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="14" height="16" fill="none"
+                        <svg class="bi" xmlns="http://www.w3.org/2000/svg" width="14" height="16" fill="none"
                              viewBox="0 0 14 16">
                             <path fill="#000"
                                   d="m13.677 6.764-6.206-5.71a1.063 1.063 0 0 0-1.47.031L.292 6.793 0 7.086V15.5h5.5v-5.25h3v5.25H14V7.061l-.323-.297Zm-6.926-4.99c.009 0 .004.002 0 .006-.004-.004-.009-.006 0-.006ZM13 14.5H9.5v-4.25a1 1 0 0 0-1-1h-3a1 1 0 0 0-1 1v4.25H1v-7l5.751-5.708L13 7.5v7Z"/>
@@ -46,7 +46,7 @@
                 <li class="link-item">
                     <a href="{{route('plans')}}"
                        class="nav-link d-flex align-items-center {{request()->routeIs('plans') ? 'active' : '' }}">
-                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                        <svg class="bi" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
                              viewBox="0 0 14 14">
                             <path fill="#000"
                                   d="M7 3a.667.667 0 0 0-.667.667v6.666a.667.667 0 1 0 1.334 0V3.667A.667.667 0 0 0 7 3ZM3.667 7A.667.667 0 0 0 3 7.667v2.666a.667.667 0 1 0 1.333 0V7.667A.667.667 0 0 0 3.667 7Zm6.666-1.333a.667.667 0 0 0-.666.666v4a.667.667 0 1 0 1.333 0v-4a.666.666 0 0 0-.667-.666ZM11.667.333H2.333a2 2 0 0 0-2 2v9.334a2 2 0 0 0 2 2h9.334a2 2 0 0 0 2-2V2.333a2 2 0 0 0-2-2Zm.666 11.334a.667.667 0 0 1-.666.666H2.333a.667.667 0 0 1-.666-.666V2.333a.667.667 0 0 1 .666-.666h9.334a.667.667 0 0 1 .666.666v9.334Z"/>
@@ -57,7 +57,7 @@
                 <li class="link-item">
                     <a href="{{route('profile')}}"
                        class="nav-link d-flex align-items-center {{request()->routeIs('profile') ? 'active' : '' }}">
-                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                        <svg class="bi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
                              viewBox="0 0 16 16">
                             <path fill="#000"
                                   d="M8 6.667a2.667 2.667 0 1 0 0-5.334 2.667 2.667 0 0 0 0 5.334Zm5.333 5c0 1.656 0 3-5.333 3s-5.333-1.344-5.333-3c0-1.657 2.388-3 5.333-3 2.945 0 5.333 1.343 5.333 3Z"/>
@@ -68,7 +68,7 @@
                 <li class="link-item">
                     <a href="{{route('faq')}}"
                        class="nav-link d-flex align-items-center {{request()->routeIs('faq') ? 'active' : '' }}">
-                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                        <svg class="bi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
                              viewBox="0 0 16 16">
                             <g clip-path="url(#a)">
                                 <path fill="#000"
@@ -86,7 +86,7 @@
                 <li class="link-item">
                     <a href="{{route('contact')}}"
                        class="nav-link d-flex align-items-center {{request()->routeIs('contact') ? 'active' : '' }}">
-                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                        <svg class="bi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
                              viewBox="0 0 16 16">
                             <path stroke="#000" stroke-width="1.333"
                                   d="M.667 1.333h14V12H9.333L4 14.667V12H.667V1.333ZM4 6.667h.667v.666H4v-.666Zm3.333 0H8v.666h-.667v-.666Zm3.334 0h.666v.666h-.666v-.666Z"/>

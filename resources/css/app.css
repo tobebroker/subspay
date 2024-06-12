@@ -28,6 +28,10 @@
     transition: all .3s;
 }
 
+.left-bar .link-item a svg {
+    margin-right: 7px;
+}
+
 .left-bar .link-item a.active,
 .left-bar .link-item a:hover {
     color: #030303;
