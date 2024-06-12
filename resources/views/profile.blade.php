@@ -11,7 +11,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="d-flex flex-column align-items-center text-center">
-                            <img src="{{assert('/assets/img/user.png')}}" alt="User"
+                            <img src="{{asset('/assets/img/user.png')}}" alt="User"
                                  class="rounded-circle p-1 bg-primary" width="110">
                             <div class="mt-3">
                                 <h4>{{$user->full_name}}</h4>
