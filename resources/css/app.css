@@ -1,7 +1,7 @@
 .main-content {
     width: 100%;
-    max-height: calc(100vh - 49px - 78px);
-    min-height: calc(100vh - 49px - 78px);
+    max-height: calc(100vh - 78px);
+    min-height: calc(100vh - 78px);
     overflow-y: scroll;
 }
 
@@ -37,6 +37,20 @@
     color: #030303;
     background-color: #ffffff;
     border-color: #f0f0f0;
+}
+
+.bottom-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom-links a {
+    text-decoration: none;
+    color: #030303;
+    font-size: 16px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 700;
+    line-height: 21px;
 }
 
 .logo {
@@ -565,26 +579,6 @@ main {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-footer {
-    background-color: #f0f0f0;
-    padding: 14px 44px;
-    display: flex;
-    flex-direction: row;
-}
-
-footer a {
-    text-decoration: none;
-    color: #030303;
-    font-size: 16px;
-    font-family: "Source Sans Pro";
-    font-weight: 700;
-    line-height: 21px;
-}
-
-footer a:not(:last-child) {
-    margin-right: 30px;
 }
 
 .line {

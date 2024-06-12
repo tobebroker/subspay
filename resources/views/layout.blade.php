@@ -95,6 +95,11 @@
                     </a>
                 </li>
             </ul>
+
+            <div class="bottom-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
         </div>
 
         <div class="main-content">
@@ -105,11 +110,6 @@
             </div>
         </div>
     </div>
-
-    <footer>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-    </footer>
 </main>
 
 <script src="{{ asset('js/toastr.min.js') }}"></script>
