@@ -149,7 +149,7 @@
     border: 0;
     box-sizing: border-box;
     border-radius: 24px;
-    background-color: #ff9500;
+    background-color: #FFFFFF;
     color: #000000;
     font-size: 16px;
     font-family: "Source Sans Pro";
@@ -184,7 +184,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     background-color: #f0f0f0;
-    padding: 34px 30px;
+    padding: 15px 30px;
 }
 
 nav .user {

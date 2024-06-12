@@ -23,4 +23,7 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/profile', [SiteController::class, 'profile'])->name('profile');
     Route::put('/profile', [SiteController::class, 'profile'])->name('update.profile');
+
+    Route::get('/faq', [SiteController::class, 'faq'])->name('faq');
+    Route::get('/contact', [SiteController::class, 'contact'])->name('contact');
 });

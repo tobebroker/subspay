@@ -99,4 +99,14 @@ class SiteController extends Controller
             return back()->withInput()->withErrors(['error' => $validation->errors()->first()]);
         }
     }
+
+    public function faq(): view
+    {
+        return view('faq');
+    }
+
+    public function contact(): View
+    {
+        return view('contact');
+    }
 }

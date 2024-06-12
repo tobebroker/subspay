@@ -2,7 +2,7 @@
 @section('title', 'Plans')
 @section('content')
     <h1 class="heading-1 text-center" style="margin-top: 50px; margin-bottom: 20px">
-        Price
+        Plans
     </h1>
 
     <p class="text text-center" style="margin-bottom: 55px">Choose the perfect plan for you</p>
@@ -119,41 +119,5 @@
                 </ul>
             </div>
         </section>
-    </section>
-
-    <section class="faq">
-        <div class="image"></div>
-        <h1 class="heading-1 text-center">
-            Subscription FAQs
-        </h1>
-
-        <div class="accordion">
-            @foreach($faqs as $key => $faq)
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapse-{{$key}}" aria-expanded="false"
-                                aria-controls="collapse-{{$key}}">
-                            {{$faq['question']}}
-                        </button>
-                    </h2>
-                    <div id="collapse-{{$key}}" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            {{$faq['answer']}}
-                        </div>
-                    </div>
-                </div>
-            @endforeach
-        </div>
-    </section>
-
-    <section class="contact">
-        <div>
-            <h1 class="heading-1" style="margin-bottom: 60px">Consult with us</h1>
-            <p class="text" style="margin-bottom: 50px">Choose the perfect plan for you</p>
-            <a class="contact__button" href="#" target="_blank">Consult</a>
-        </div>
-
-        <div class="contact__image"></div>
     </section>
 @endsection

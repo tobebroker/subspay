@@ -69,6 +69,35 @@
                         Profile
                     </a>
                 </li>
+                <li class="link-item">
+                    <a href="{{route('faq')}}"
+                       class="nav-link d-flex align-items-center {{request()->routeIs('faq') ? 'active' : '' }}">
+                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                             viewBox="0 0 16 16">
+                            <g clip-path="url(#a)">
+                                <path fill="#000"
+                                      d="M8 0C6.954 0 6.154.8 6.154 1.846v3.692c0 1.047.8 1.847 1.846 1.847h3.692l2.462 2.461V7.385c1.046 0 1.846-.8 1.846-1.847V1.846C16 .8 15.2 0 14.154 0H8Zm2.577 1.846h1.057l1.04 3.692h-.924l-.25-.923h-.923l-.23.923h-.809l1.04-3.692Zm.5.616c-.062.246-.13.546-.193.73L10.712 4h.73l-.173-.808c-.123-.184-.192-.484-.192-.73Zm-9.23 3.692C.8 6.154 0 6.954 0 8v3.692c0 1.046.8 1.847 1.846 1.847V16l2.462-2.461H8c1.046 0 1.846-.8 1.846-1.847V8H8c-1.17 0-2.096-.8-2.404-1.846h-3.75Zm2.826 1.788c1.046 0 1.539.862 1.539 1.846 0 .862-.296 1.408-.789 1.655.247.123.538.188.846.25l-.23.615c-.431-.123-.878-.315-1.309-.5-.061-.062-.169-.058-.23-.058-.739-.061-1.423-.673-1.423-1.904 0-1.046.612-1.904 1.596-1.904Zm0 .673c-.492 0-.73.554-.73 1.231 0 .739.238 1.23.73 1.23.493 0 .75-.553.75-1.23 0-.677-.257-1.23-.75-1.23Z"/>
+                            </g>
+                            <defs>
+                                <clipPath id="a">
+                                    <path fill="#fff" d="M0 0h16v16H0z"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        FAQ
+                    </a>
+                </li>
+                <li class="link-item">
+                    <a href="{{route('contact')}}"
+                       class="nav-link d-flex align-items-center {{request()->routeIs('contact') ? 'active' : '' }}">
+                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                             viewBox="0 0 16 16">
+                            <path stroke="#000" stroke-width="1.333"
+                                  d="M.667 1.333h14V12H9.333L4 14.667V12H.667V1.333ZM4 6.667h.667v.666H4v-.666Zm3.333 0H8v.666h-.667v-.666Zm3.334 0h.666v.666h-.666v-.666Z"/>
+                        </svg>
+                        Contact
+                    </a>
+                </li>
             </ul>
         </div>
 
