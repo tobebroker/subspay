@@ -1,0 +1,708 @@
+.main-content {
+    width: 100%;
+    max-height: calc(100vh - 49px - 116px);
+    min-height: calc(100vh - 49px - 116px);
+    overflow-y: scroll;
+}
+
+.left-bar {
+    display: flex;
+    padding: 1rem !important;
+    width: 300px;
+    flex-shrink: 0;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+
+.left-bar .link-item a {
+    color: #030303;
+    font-size: 15px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    border-radius: 24px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 11px 16px;
+    transition: all .3s;
+}
+
+.left-bar .link-item a.active,
+.left-bar .link-item a:hover {
+    color: #030303;
+    background-color: #ffffff;
+    border-color: #f0f0f0;
+}
+
+.logo {
+    color: #030303;
+    font-size: 20px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.input-wrapper.checkbox {
+    flex-direction: row;
+    align-items: center;
+}
+
+.input-wrapper.checkbox label {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.input-wrapper label {
+    color: #080a0b;
+    font-size: 12px;
+    font-family: "Source Sans Pro";
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 12px;
+}
+
+.input-wrapper input {
+    padding: 14px 8px;
+    border: 1px solid #282828;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #282828;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    font-weight: 500;
+    line-height: 18px;
+    outline: none;
+}
+
+.input-wrapper.checkbox input {
+    cursor: pointer;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    pointer-events: auto;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(27, 27, 27, 1);
+    border-radius: 5px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
+    border: 0;
+}
+
+.text,
+.text a {
+    color: #5d5d5b;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.heading-1 {
+    color: #080a0b;
+    font-size: 48px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 0;
+}
+
+.heading-2 {
+    color: #030303;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 0;
+}
+
+.heading-3 {
+    color: #1b1b1b;
+    font-size: 32px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    line-height: 42px;
+    text-align: center;
+}
+
+.heading-5 {
+    color: #030303;
+    font-size: 20px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.button {
+    cursor: pointer;
+    padding: 14px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #ff9500;
+    color: #000000;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 22px;
+    outline: none;
+}
+
+.image {
+    width: 512px;
+    height: 512px;
+    border-radius: 24px;
+    background-image: url(/public/assets/img/test.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-card {
+    background-color: #f0f0f0;
+    border-radius: 24px;
+    padding: 33px;
+}
+
+.custom-card .custom-card__title {
+    margin-bottom: 30px;
+}
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f0f0f0;
+    padding: 34px 30px;
+}
+
+nav .user {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 100000px;
+    background-image: url(/public/assets/img/user.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav .user:after {
+    display: none;
+}
+
+/* End Nav Bar */
+
+main {
+    padding: 30px;
+}
+
+.info-items .info-item__icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 100000px;
+    background-image: url(/public/assets/img/chatt-icon.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.info-item .info-item__title {
+    color: #030303;
+    font-size: 15px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.info-item .info-item__value {
+    color: #030303;
+    font-size: 48px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+.info-item .info-item__button {
+    cursor: pointer;
+    padding: 4px 10px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #1b1b1b;
+    font-size: 15px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 600;
+    line-height: 20px;
+    outline: none;
+    text-decoration: none;
+}
+
+.custom-card__table .table tr {
+    border-bottom: 2px solid #dedede;
+    border-radius: 2px;
+}
+
+.custom-card__table .table tr th,
+.custom-card__table .table tr td {
+    background: transparent;
+    padding: 20px 0;
+}
+
+.custom-card__table .text {
+    color: #030303;
+    font-size: 15px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.rounded-bg {
+    padding: 9px 11px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.promos {
+    display: flex;
+    align-items: center;
+}
+
+.promo {
+    background: #f0f0f0;
+    padding: 37px 38px;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+.promo.first {
+    border-bottom-left-radius: 24px;
+    border-top-left-radius: 24px;
+}
+
+.promo.second {
+    background-color: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #000000;
+}
+
+.promo.third {
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.promo .promo-heading {
+    margin-bottom: 20px;
+}
+
+.promo .caption {
+    cursor: pointer;
+    padding: 10px 30px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 700;
+    line-height: 18px;
+    outline: none;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.promo .price {
+    margin-bottom: 25px;
+}
+
+.promo .promo-text {
+    color: #030303;
+    font-size: 20px;
+    font-family: "Source Sans Pro", serif;
+    line-height: 26px;
+}
+
+.promo .price .sign {
+    color: #030303;
+    font-size: 32px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 600;
+    line-height: 42px;
+    transform: translateY(-35px);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.promo .price .value {
+    color: #030303;
+    font-size: 72px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.promo .features {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+.promo .buy {
+    margin-top: 70px;
+}
+
+.promo .buy .buy-button {
+    cursor: pointer;
+    padding: 18px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    color: #1b1b1b;
+    font-size: 16px;
+    font-family: "Source Sans Pro", serif;
+    font-weight: 600;
+    line-height: 21px;
+    outline: none;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.promo .buy .buy-button.white {
+    background-color: #ffffff;
+}
+
+.promo .buy .buy-button.black {
+    background-color: #1b1b1b;
+    color: #ffffff;
+    margin-bottom: calc(67px - 37px);
+}
+
+@media (min-width: 768px) {
+    .promo {
+        width: 33.333%;
+    }
+
+    .promo.first {
+        border-right: none
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        margin-bottom: 2rem;
+        border-radius: .25rem
+    }
+
+    .promo:last-child {
+        margin-bottom: 0
+    }
+}
+
+.features-section {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+.features-section .feature-box {
+    flex: 1;
+}
+
+.features-section .feature-box .feature-title {
+    color: #1b1b1b;
+    font-size: 32px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 0;
+    padding-bottom: 33px;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 2px;
+}
+
+.features-section .feature-box ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 37px;
+    list-style: none;
+}
+
+.features-section .feature-box ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 26px;
+}
+
+.features-section .feature-box ul li .feature__list-icon {
+    background-image: url(/public/assets/img/check.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 34px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.features-section .feature-box ul li .feature {
+    color: #1b1b1b;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.faq {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.faq .image {
+    width: 246px;
+    height: 246px;
+    border-radius: 24px;
+    background-image: url(/public/assets/img/test.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto 21px;
+}
+
+.faq .heading-1 {
+    margin-bottom: 80px;
+}
+
+.faq .accordion {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.faq .accordion .accordion-item {
+    border: none;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 2px;
+}
+
+.faq .accordion .accordion-item:last-child {
+    border-bottom: none;
+}
+
+.faq .accordion .accordion-item .accordion-button {
+    color: #1b1b1b;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.faq .accordion .accordion-item .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.faq .accordion .accordion-item .accordion-button:not(.collapsed) {
+    color: #1b1b1b;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.contact {
+    background-color: #f0f0f0;
+    border-radius: 24px;
+    padding: 35px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.contact .contact__button {
+    cursor: pointer;
+    padding: 18px 75px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #1b1b1b;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    line-height: 21px;
+    outline: none;
+    text-decoration: none;
+}
+
+.contact .contact__image {
+    width: 380px;
+    height: 380px;
+    border-radius: 24px;
+    background-image: url(/public/assets/img/test.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 14px 44px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer a {
+    text-decoration: none;
+    color: #030303;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    line-height: 21px;
+}
+
+footer a:not(:last-child) {
+    margin-right: 30px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+}
+
+.payment {
+    max-width: 800px;
+    padding: 30px 0;
+}
+
+.payment .payment-input-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.payment .payment-input-wrapper label {
+    color: #030303;
+    font-size: 20px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    line-height: 26px;
+    margin-right: 20px;
+}
+
+.payment .payment-input-wrapper input {
+    padding: 10px 8px;
+    min-width: 360px;
+    border: 1px solid #282828;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #282828;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+    line-height: 19px;
+    outline: none;
+}
+
+.payment .payment-input-wrapper textarea {
+    min-width: 600px;
+    padding: 12px 8px;
+    border: 1px solid #282828;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #282828;
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+    line-height: 19px;
+    outline: none;
+}
+
+.payment .buttons {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.payment .buttons button,
+.payment .buttons a {
+    cursor: pointer;
+    padding: 14px 39px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    font-weight: 600;
+    line-height: 21px;
+    outline: none;
+    text-decoration: none;
+}
+
+.success-payment .main-text {
+    color: #1b1b1b;
+    font-size: 32px;
+    font-family: "Source Sans Pro";
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.success-payment .secondary-text {
+    color: #1b1b1b;
+    font-size: 24px;
+    font-family: "Source Sans Pro";
+    line-height: 31px;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+.success-payment .success-payment-image {
+    width: 400px;
+    height: 230px;
+    background-image: url(/public/assets/img/payment.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 45px;
+}
+
+.success-payment a {
+    cursor: pointer;
+    padding: 14px 39px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Source Sans Pro";
+    line-height: 23px;
+    outline: none;
+    text-decoration: none;
+}

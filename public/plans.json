@@ -1,0 +1,52 @@
+{
+    "basic": {
+        "id": "basic",
+        "name": "Basic",
+        "price": 69,
+        "employees": 1,
+        "customers": 50,
+        "features": [
+            "Process Analysis",
+            "Task Management",
+            "Time Tracking",
+            "Basic Plan",
+            "Payment Options",
+            "Profile Management"
+        ]
+    },
+    "pro": {
+        "id": "pro",
+        "name": "Pro",
+        "price": 2000,
+        "employees": 20,
+        "customers": 10000,
+        "features": [
+            "Process Analysis",
+            "Task Management",
+            "Time Tracking",
+            "Standard Plan",
+            "Payment Options",
+            "Profile Management",
+            "Secure Checkout"
+        ]
+    },
+    "business": {
+        "id": "business",
+        "name": "Business",
+        "price": 3500,
+        "employees": "unlimited",
+        "customers": "unlimited",
+        "features": [
+            "Process Analysis",
+            "Task Management",
+            "Time Tracking",
+            "Premium Plan",
+            "Payment Options",
+            "Profile Management",
+            "Secure Checkout",
+            "subscription Details",
+            "subscription Details",
+            "subscription Details"
+        ]
+    }
+}
