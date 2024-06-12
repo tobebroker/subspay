@@ -2,8 +2,10 @@
 @section('title', 'Payment')
 @section('content')
     <div class="back">
-        <span class="back-icon"></span>
-        <a href="{{ url()->previous() ?: url('/') }}" class="back-button"></a>
+        <a href="{{ url()->previous() ?: url('/') }}" class="back-button">
+            <span class="back-icon"></span>
+            Go Back
+        </a>
     </div>
 
     <h1 class="heading-1" style="margin-top: 30px">

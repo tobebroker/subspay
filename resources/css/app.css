@@ -708,18 +708,19 @@ footer a:not(:last-child) {
 }
 
 .back {
-    margin-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.back .back-icon {
+.back .back-button .back-icon {
     background-image: url(/public/assets/img/back.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 15px;
+    width: 25px;
+    height: 25px;
 }
 
 .back .back-button {
