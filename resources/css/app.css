@@ -42,6 +42,7 @@
 .bottom-links {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .bottom-links a {
@@ -51,6 +52,10 @@
     font-family: "Source Sans Pro", serif;
     font-weight: 700;
     line-height: 21px;
+}
+
+.bottom-links a:not(:last-child) {
+    margin-right: 30px;
 }
 
 .logo {
