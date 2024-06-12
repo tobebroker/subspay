@@ -22,9 +22,6 @@
             </div>
             <ul class="dropdown-menu">
                 <li>
-                    <a class="dropdown-item" href="{{route('profile')}}">Profile</a>
-                </li>
-                <li>
                     <a class="dropdown-item" href="{{route('logout')}}">Log out</a>
                 </li>
             </ul>

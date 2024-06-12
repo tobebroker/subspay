@@ -104,10 +104,10 @@
                             <span class="text rounded-bg">{{$plan['price']}}/m</span>
                         </td>
                         <td>
-                            <a href="{{route('payment', ['plan' => $plan['id']])}}" class="text rounded-bg" style="cursor: pointer">Select</a>
+                            <a href="{{route('payment', ['plan' => $plan['id']])}}" class="table-button" style="cursor: pointer">Select</a>
                         </td>
                         <td>
-                            <a href="{{route('plans')}}" class="text rounded-bg" style="cursor: pointer">More Details</a>
+                            <a href="{{route('plans')}}" class="table-button" style="cursor: pointer">More Details</a>
                         </td>
                     </tr>
                 @endforeach
