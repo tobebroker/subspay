@@ -35,7 +35,7 @@
                         <form action="{{route('update.profile')}}" method="POST">
                             @csrf
                             @method('PUT')
-                            <div class="row mb-3">
+                            <div class="row mb-3 align-items-center">
                                 <div class="col-sm-3">
                                     <h6 class="mb-0">Full Name</h6>
                                 </div>
@@ -44,7 +44,7 @@
                                            value="{{old('full_name', $user->full_name)}}">
                                 </div>
                             </div>
-                            <div class="row mb-3">
+                            <div class="row mb-3 align-items-center">
                                 <div class="col-sm-3">
                                     <h6 class="mb-0">Email</h6>
                                 </div>
@@ -53,7 +53,7 @@
                                            value="{{old('email', $user->email)}}">
                                 </div>
                             </div>
-                            <div class="row mb-3">
+                            <div class="row mb-3 align-items-center">
                                 <div class="col-sm-3">
                                     <h6 class="mb-0">Company Name</h6>
                                 </div>
