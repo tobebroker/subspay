@@ -476,8 +476,7 @@ main {
 }
 
 .faq {
-    margin-top: 60px;
-    margin-bottom: 120px;
+    margin-bottom: 30px;
 }
 
 .faq .image {
@@ -536,7 +535,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 100px;
 }
 
 .contact .contact__button {

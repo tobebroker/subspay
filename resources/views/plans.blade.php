@@ -1,7 +1,7 @@
 @extends('layout')
 @section('title', 'Plans')
 @section('content')
-    <h1 class="heading-1 text-center" style="margin-top: 50px; margin-bottom: 20px">
+    <h1 class="heading-1 text-center" style="margin-bottom: 20px">
         Plans
     </h1>
 
