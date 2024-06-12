@@ -57,11 +57,10 @@
                 <li class="link-item">
                     <a href="{{route('profile')}}"
                        class="nav-link d-flex align-items-center {{request()->routeIs('profile') ? 'active' : '' }}">
-                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none"
-                             viewBox="0 0 12 12">
-                            <path stroke="#000" stroke-linejoin="round"
-                                  d="M.667 10a2.667 2.667 0 0 1 2.666-2.667h5.334A2.667 2.667 0 0 1 11.333 10 1.333 1.333 0 0 1 10 11.333H2A1.333 1.333 0 0 1 .667 10Z"/>
-                            <path stroke="#000" d="M6 4.667a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                        <svg class="bi me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                             viewBox="0 0 16 16">
+                            <path fill="#000"
+                                  d="M8 6.667a2.667 2.667 0 1 0 0-5.334 2.667 2.667 0 0 0 0 5.334Zm5.333 5c0 1.656 0 3-5.333 3s-5.333-1.344-5.333-3c0-1.657 2.388-3 5.333-3 2.945 0 5.333 1.343 5.333 3Z"/>
                         </svg>
                         Profile
                     </a>
