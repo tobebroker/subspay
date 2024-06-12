@@ -114,7 +114,7 @@
 
 .heading-1 {
     color: #080a0b;
-    font-size: 40px;
+    font-size: calc(1.275rem + .3vw);
     font-family: "Source Sans Pro";
     font-weight: 700;
     line-height: 56px;
@@ -233,7 +233,7 @@ main {
 
 .info-item .info-item__value {
     color: #030303;
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Source Sans Pro", serif;
     font-weight: 600;
     line-height: 48px;
