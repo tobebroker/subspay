@@ -1,6 +1,11 @@
 @extends('layout')
 @section('title', 'Payment')
 @section('content')
+    <div class="back">
+        <span class="back-icon"></span>
+        <a href="{{ url()->previous() ?: url('/') }}" class="back-button"></a>
+    </div>
+
     <h1 class="heading-1" style="margin-top: 30px">
         Selected Plan: {{$plan['name']}}
     </h1>

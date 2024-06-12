@@ -706,3 +706,29 @@ footer a:not(:last-child) {
     outline: none;
     text-decoration: none;
 }
+
+.back {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.back .back-icon {
+    background-image: url(/public/assets/img/back.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+}
+
+.back .back-button {
+    text-decoration: none;
+    cursor: pointer;
+    color: #030303;
+    font-size: 20px;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 0;
+}
