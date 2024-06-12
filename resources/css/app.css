@@ -771,3 +771,9 @@ main {
     outline: none;
     text-decoration: none;
 }
+
+.link-in-text {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}

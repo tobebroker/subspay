@@ -1,11 +1,14 @@
 @extends('layout')
 @section('title', 'Plans')
 @section('content')
-    <h1 class="heading-1 text-center" style="margin-bottom: 20px">
+    <h1 class="heading-1 text-center">
         Plans
     </h1>
 
-    <p class="text text-center" style="margin-bottom: 55px">Choose the perfect plan for you</p>
+    <p class="text text-center" style="margin-bottom: 55px">
+        Choose the perfect plan for you (For an individual plan, please contact us on <a class="link-in-text"
+                                                                                         target="_blank" href="#">Telegram</a>)
+    </p>
 
     <section class="pricing-table">
         <div class="promos">
@@ -71,7 +74,7 @@
     </section>
 
     <section>
-        <h1 class="heading-3 text-center" style="margin-top: 58px; margin-bottom: 60px">
+        <h1 class="heading-1 text-center" style="margin-top: 58px; margin-bottom: 60px">
             Compare Features
         </h1>
 
