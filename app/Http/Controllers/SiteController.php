@@ -25,9 +25,8 @@ class SiteController extends Controller
     public function plans(): view
     {
         return view('plans')->with([
-                'plans' => json_decode(File::get('plans.json'), true),
-                'faqs' => json_decode(File::get('faq.json'), true)]
-        );
+                'plans' => json_decode(File::get('plans.json'), true)
+        ]);
     }
 
     public function payment(string $plan): view|RedirectResponse
@@ -102,7 +101,9 @@ class SiteController extends Controller
 
     public function faq(): view
     {
-        return view('faq');
+        return view('faq')->with([
+            'faqs' => json_decode(File::get('faq.json'), true)
+        ]);
     }
 
     public function contact(): View
