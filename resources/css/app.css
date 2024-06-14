@@ -371,14 +371,14 @@ main {
     font-family: "Source Sans Pro", serif;
     font-weight: 600;
     line-height: 42px;
-    transform: translateY(-35px);
+    transform: translateY(-27px);
     display: inline-block;
     margin-right: 5px;
 }
 
 .promo .price .value {
     color: #030303;
-    font-size: 72px;
+    font-size: 55px;
     font-family: "Source Sans Pro", serif;
     font-weight: 600;
     line-height: 80px;
